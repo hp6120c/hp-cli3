@@ -1,45 +1,8 @@
 {
   "useTaobaoRegistry": true,
-  "presets": {
-    "default-config": {
-      "useConfigFiles": false,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-typescript": {
-          "classComponent": true,
-          "tsLint": true,
-          "lintOn": [
-            "save"
-          ],
-          "useTsWithBabel": true
-        },
-        "@vue/cli-plugin-pwa": {}
-      },
-      "router": true,
-      "routerHistoryMode": false,
-      "vuex": true,
-      "cssPreprocessor": "dart-sass"
-    },
-    "default": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "base",
-          "lintOn": [
-            "save"
-          ]
-        }
-      },
-      "router": true,
-      "routerHistoryMode": false,
-      "vuex": true,
-      "cssPreprocessor": "node-sass"
-    },
-    "test": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
         "@vue/cli-plugin-router": {
           "historyMode": false
         },
@@ -51,10 +14,8 @@
             "commit"
           ]
         }
-      },
-      "cssPreprocessor": "node-sass"
-    }
   },
+  "cssPreprocessor": "node-sass",
   "latestVersion": "4.1.2",
   "lastChecked": 1578992027104
 }
